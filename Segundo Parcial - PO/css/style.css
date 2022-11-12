@@ -1,0 +1,139 @@
+body{
+    background-image: linear-gradient(to left,rgb(67, 211, 222),rgb(68, 127, 222));
+}
+/*Header*/
+header{
+    background-color: rgb(36, 77, 200);
+    height: 100px;
+}
+.logo{
+    display: flex;
+    float: left;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+.logo h2{
+    padding-top: 20px;
+    padding-left: 20px ;
+}
+.navegacion{
+    display: flex;
+    list-style: none;
+    float: right;
+}
+.navegacion li{
+    border-right:  1px solid black;
+}
+.navegacion li a{
+    display: block;
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+}
+.navegacion li:hover {
+    background: white;
+}
+/*Main*/
+main{
+    background: url(/img/background.jpg);
+}
+.mainLeft, .mainRight{
+    margin: 40px 0px;
+}
+.mainLeft{
+    border-radius: 10px;
+    background-color: rgb(183, 230, 248);
+    padding: 30px 20px 20px 20px;
+}
+.mainRight img{
+    width: 400px;
+    height: 275px;
+    border-radius: 10px;
+}
+.mainLeft h1{
+    font-size: 30px;
+}
+.mainRight{
+    padding-left: 30px ;
+}
+
+/*Features*/
+#features{
+    background-color:rgb(36, 77, 200);
+}
+.sectionLeft ,.sectionMid ,.sectionRight{
+    margin: 5px solid black ;
+}
+section{
+    padding-top: 50px;
+}
+.nombreServicio{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+section p{
+    text-align: center;
+    padding: 10px;
+}
+.servicios{
+    border-radius: 10px;
+    width: 280px;
+    height: 220px;
+}
+/*Noticia*/
+.noticiaLeft
+{
+    background-color: rgb(230, 78, 194);
+    border: 2px black solid;
+}
+.noticiaLeft h2{
+    text-align: center;
+}
+
+.noticiaRight img{
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+}
+/*Slider*/
+.sliderMid{
+    text-align: center;
+}
+.sliderMid h2, .sliderMid p{
+    font-family: 'Dosis', sans-serif;
+}
+.signo{
+    padding-top: 50px;
+}
+
+/*Formulario*/
+.formulario{
+    text-align: center;
+}
+#paciente{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#span-paciente{
+    color: black;
+}
+/*Footer*/
+.footer-navegacion{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.footer-navegacion li{
+    border-right: 1px solid black;
+}
+.footer-navegacion li a{ 
+    text-decoration: none;
+    padding: 60px;
+    color: black;
+}
+.footer-navegacion li a:hover {
+    color: white;
+}
